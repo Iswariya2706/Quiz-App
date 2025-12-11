@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lumina Quiz</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600&family=Kalam:wght@400;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['Playfair Display', 'serif'],
+              dm: ['DM Serif Display', 'serif'],
+              hand: ['Kalam', 'cursive'],
+              manrope: ['Manrope', 'sans-serif'],
+            },
+            colors: {
+              brand: {
+                dark: '#15313d',
+                blue: '#3cabda',
+                light: '#f4fdff',
+                border: '#96e5ff',
+                accent: '#266580'
+              }
+            },
+            backgroundImage: {
+              'glass-gradient': 'linear-gradient(135deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.3) 47%, rgba(255, 255, 255, 1) 100%)',
+              'option-gradient': 'linear-gradient(90deg, rgba(198, 233, 247, 0.1) 0%, rgba(229, 248, 255, 0.1) 100%)',
+              'option-gradient-hover': 'linear-gradient(90deg, rgba(198, 233, 247, 0.3) 0%, rgba(229, 248, 255, 0.3) 100%)',
+              'active-gradient': 'linear-gradient(90deg, rgba(198, 233, 247, 1) 0%, rgba(229, 248, 255, 1) 100%)',
+              'btn-gradient': 'linear-gradient(135deg, #c6e9f7 0%, #e5f8ff 100%)',
+            },
+            animation: {
+              'float': 'float 3s ease-in-out infinite',
+            },
+            keyframes: {
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-10px)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #eefbff;
+        overflow-x: hidden;
+      }
+      /* Custom scrollbar hide */
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.1/",
+    "react": "https://esm.sh/react@^19.2.1",
+    "lucide-react": "https://esm.sh/lucide-react@^0.559.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.1/",
+    "framer-motion": "https://esm.sh/framer-motion@^12.23.26"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

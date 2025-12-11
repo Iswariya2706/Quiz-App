@@ -1,0 +1,5 @@
+{
+  "name": "Lumina Quiz",
+  "description": "A pixel-perfect, glassmorphism-styled quiz application built with React, TypeScript, and Tailwind CSS, featuring smooth transitions and interactive elements.",
+  "requestFramePermissions": []
+}
