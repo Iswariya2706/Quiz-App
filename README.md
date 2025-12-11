@@ -77,4 +77,4 @@ To run this project locally:
 *   **Animations & Polish (1 hr)**: Implementing the slide transitions, rolling counter, and floating mascot effects.
 
 ---
-*Developed with ❤️ and attention to detail.*
+
