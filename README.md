@@ -1,19 +1,36 @@
-# Lumina Quiz Application
+# 🌟Lumina Quiz Application
 
-A pixel-perfect, interactive quiz interface developed as a Frontend Developer Intern assignment. This application features a high-fidelity glassmorphism design, smooth animations, and a responsive layout optimized for laptop and desktop screens.
+A pixel-perfect, interactive quiz interface built for the Frontend Developer Intern Assignment.
+This project faithfully translates the assigned Figma desktop design into a functional React application with smooth animations, accessibility compliance, and a refined user experience.
+
+---
+
+## 🔗 Live Demo & Repository
+
+**Live Demo**: https://quiz-app-bice-sigma.vercel.app/
+
+---
 
 ## 📋 Overview
 
-This project translates a specific Figma prototype into a functional web application. It focuses on visual accuracy, interactive feedback, and a polished user experience.
+- Lumina Quiz is a high-fidelity UI implementation featuring glassmorphism, segmented progress tracking, animated transitions, and desktop-optimized layouts.
+- The goal of this assignment was to deliver a pixel-accurate, interactive, and accessible interface fully aligned with the provided Figma design.
 
-### 🛠️ Tech Stack
+---
 
-- **Core Framework**: React 19 (Functional Components with Hooks)
-- **Language**: TypeScript (Strict typing for robustness)
-- **Styling**: Tailwind CSS (Utility-first styling with custom config)
-- **Animations**: Framer Motion (Complex transitions, entry/exit effects, spring physics)
-- **Icons**: Lucide React
-- **Fonts**: Google Fonts (Playfair Display, Inter, DM Serif Display, Kalam)
+## 🛠️ Tech Stack
+
+### **Core Technologies**
+- **React 19** (Functional Components, Hooks)
+- **TypeScript** (Strict typing, reliability)
+- **Tailwind CSS** (Utility-first styling, custom theme)
+
+### **Enhancements**
+- **Framer Motion** — Transitions, slide animations, micro-interactions  
+- **Lucide React** — Modern, lightweight icon set  
+- **Google Fonts** — Playfair Display, Inter, DM Serif Display, Kalam  
+
+---
 
 ## 🚀 Setup Instructions
 
@@ -43,6 +60,7 @@ To run this project locally:
     ```bash
     npm run build
     ```
+---
 
 ## ✨ Key Features Implemented
 
@@ -61,11 +79,18 @@ To run this project locally:
 *   **Laptop Optimization**: Specifically tuned for 1366x768 and 1920x1080 screens to ensure all content fits vertically without scrolling, while maintaining accessibility on smaller devices via scrollable content areas.
 *   **Flexbox Architecture**: Uses a strict vertical flex layout to prevent overlap between navigation buttons and quiz options.
 
-## 🧠 Assumptions & Decisions
+---
 
-*   **Screen Focus**: The assignment requested a desktop/laptop focus. While the app is responsive, the "Mascot" (Paw GIF) is intentionally hidden on smaller tablet/mobile screens to preserve reading space and layout integrity.
-*   **Asset Hosting**: External assets (GIFs/Images) are loaded via direct URLs. In a production environment, these would be optimized and hosted locally or on a dedicated CDN.
-*   **State Management**: Given the small scope (4 questions), local React State was used instead of Redux or Context API to keep the architecture clean and performant.
+## ⚙️ Accessibility (WCAG 2.1 Compliant)
+
+- Semantic HTML5 structure  
+- Logical tab order & keyboard navigation  
+- `aria-selected` for option cards  
+- Alt text for all graphics  
+- Verified color contrast  
+- Descriptive labels for all interactive components  
+
+---
 
 ## ⏱️ Time Spent
 
@@ -76,5 +101,15 @@ To run this project locally:
 *   **Styling & Pixel Perfection (1.5 hrs)**: Fine-tuning gradients, shadows, border radii, and specific positioning to match the provided screenshots exactly.
 *   **Animations & Polish (1 hr)**: Implementing the slide transitions, rolling counter, and floating mascot effects.
 
+# ⏱️ Time Spent
+
+**Total Time: ~6 hours**
+
+| Task | Time |
+|------|------|
+| Project Setup & Tailwind Config | 1 hr |
+| Component & Screen Development | 2.5 hrs |
+| Pixel-perfect Styling | 1.5 hrs |
+| Animations & UI Polishing | 1 hr |
 ---
 
