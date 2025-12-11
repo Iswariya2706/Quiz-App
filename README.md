@@ -92,24 +92,15 @@ To run this project locally:
 
 ---
 
-## ⏱️ Time Spent
-
-**Total Time: ~6 Hours**
-
-*   **Architecture & Setup (1 hr)**: Setting up Typescript interfaces, Tailwind configuration (colors, fonts), and basic routing logic.
-*   **Component Implementation (2.5 hrs)**: Building the core screens (Question, Result) and reusable components (Buttons, Cards).
-*   **Styling & Pixel Perfection (1.5 hrs)**: Fine-tuning gradients, shadows, border radii, and specific positioning to match the provided screenshots exactly.
-*   **Animations & Polish (1 hr)**: Implementing the slide transitions, rolling counter, and floating mascot effects.
-
 # ⏱️ Time Spent
 
-**Total Time: ~6 hours**
+**Total Time: ~4 hours**
 
 | Task | Time |
 |------|------|
 | Project Setup & Tailwind Config | 1 hr |
-| Component & Screen Development | 2.5 hrs |
-| Pixel-perfect Styling | 1.5 hrs |
-| Animations & UI Polishing | 1 hr |
+| Component & Screen Development | 2 hrs |
+| Pixel-perfect Styling | 0.5 hr |
+| Animations & UI Polishing | 0.5 hr |
 ---
 
